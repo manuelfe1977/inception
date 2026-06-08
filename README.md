@@ -83,4 +83,5 @@ No le damos una ruta exacta, simplemente le damos un nombre al volumen, Docker c
 
 ### Resources
 
-
+https://medium.com/@imyzf/inception-3979046d90a0
+https://dev.to/alejiri/docker-nginx-wordpress-mariadb-tutorial-inception42-1eok
