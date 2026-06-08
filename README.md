@@ -111,5 +111,6 @@ Copiar archivo .env a /srcs y carpeta secrets
 
 ### Resources
 
-https://medium.com/@imyzf/inception-3979046d90a0
-https://dev.to/alejiri/docker-nginx-wordpress-mariadb-tutorial-inception42-1eok
+##### https://medium.com/@imyzf/inception-3979046d90a0
+
+##### https://dev.to/alejiri/docker-nginx-wordpress-mariadb-tutorial-inception42-1eok
