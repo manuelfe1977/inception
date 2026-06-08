@@ -109,6 +109,17 @@ Copiar archivo .env a /srcs y carpeta secrets
 
 ``` docker ps ``` 
 
+##### Acceso al sitio web
+
+Modifica el archivo /etc/hosts de tu máquina física vinculando la IP de la máquina virtual al dominio requerido
+
+###### /etc/hosts (Máquina Física)
+<IP_DE_TU_MAQUINA_VIRTUAL>       manuelfe.42.fr
+
+###### En el navegador web escribe
+https://manuelfe.42.fr
+
+
 ### Resources
 
 ##### https://medium.com/@imyzf/inception-3979046d90a0
