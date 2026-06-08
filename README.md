@@ -80,6 +80,34 @@ No le damos una ruta exacta, simplemente le damos un nombre al volumen, Docker c
 
 ### Instructions
 
+#### 🚀 Guía de Instalación y Arranque rápido
+
+Sigue estos pasos en orden estricto dentro de la terminal de tu máquina virtual para clonar, configurar e iniciar el entorno.
+
+##### Clonar el repositorio
+Accede a tu máquina virtual por SSH, posiciónate en tu carpeta de inicio (`~`) y clona el proyecto:
+```bash
+git clone <URL_DE_TU_REPOSITORIO_INCEPTION> inception
+cd inception
+```
+##### Crear directorios físicos en la VM
+sudo mkdir -p /home/manuelfe/data/mariadb
+sudo mkdir -p /home/manuelfe/data/wordpress
+
+###### Asignar la propiedad al usuario actual para evitar errores de 'Permission Denied'
+sudo chown -R $USER:$USER /home/manuelfe/data
+
+###### Verificar variables de entorno (.env) y secrets de Docker
+
+Copiar archivo .env a /srcs y carpeta secrets
+
+##### Compilar y levantar el entorno
+
+``` make ```
+
+##### Comprobacion
+
+``` docker ps ``` 
 
 ### Resources
 
